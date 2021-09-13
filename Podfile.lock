@@ -1,0 +1,16 @@
+PODS:
+  - JPUtils-OC/Layout (0.0.5)
+
+DEPENDENCIES:
+  - JPUtils-OC/Layout (= 0.0.5)
+
+SPEC REPOS:
+  trunk:
+    - JPUtils-OC
+
+SPEC CHECKSUMS:
+  JPUtils-OC: 0b9d0b91c48b1448e9517a082fe56302da50f527
+
+PODFILE CHECKSUM: d2b5e24990da1b8590ac5b22df892ec48828a0d3
+
+COCOAPODS: 1.10.0

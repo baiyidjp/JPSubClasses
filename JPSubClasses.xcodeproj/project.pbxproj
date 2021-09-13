@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B1A4887AA91BCF4690F9E06 /* libPods-JPSubClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5551987781C1659C3E727D42 /* libPods-JPSubClasses.a */; };
+		F57B0CCA25C92BF6006C75E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CC925C92BF6006C75E5 /* AppDelegate.m */; };
+		F57B0CCD25C92BF6006C75E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CCC25C92BF6006C75E5 /* SceneDelegate.m */; };
+		F57B0CD025C92BF6006C75E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CCF25C92BF6006C75E5 /* ViewController.m */; };
+		F57B0CD325C92BF6006C75E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57B0CD125C92BF6006C75E5 /* Main.storyboard */; };
+		F57B0CD525C92BF8006C75E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B0CD425C92BF8006C75E5 /* Assets.xcassets */; };
+		F57B0CD825C92BF8006C75E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57B0CD625C92BF8006C75E5 /* LaunchScreen.storyboard */; };
+		F57B0CDB25C92BF8006C75E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CDA25C92BF8006C75E5 /* main.m */; };
+		F57B0CE925C92CDE006C75E5 /* JPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CE825C92CDE006C75E5 /* JPTabBarController.m */; };
+		F57B0CED25C92CEA006C75E5 /* JPBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CEC25C92CEA006C75E5 /* JPBasicViewController.m */; };
+		F57B0CF125C92D0C006C75E5 /* JPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CF025C92D0C006C75E5 /* JPNavigationController.m */; };
+		F57B0CF525C92D1D006C75E5 /* JPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CF425C92D1D006C75E5 /* JPWebViewController.m */; };
+		F57B0D0025C93FFD006C75E5 /* JPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B0CFF25C93FFD006C75E5 /* JPNavigationBar.m */; };
+		F5E482D72652679900135F0F /* JPThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E482D62652679900135F0F /* JPThread.m */; };
+		F5E482DA26526E9D00135F0F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E482D926526E9D00135F0F /* TestViewController.m */; };
+		F5E482DD2653B9B300135F0F /* JPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E482DC2653B9B300135F0F /* JPOperationQueue.m */; };
+		F5E487172654EC6900135F0F /* JPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E487162654EC6900135F0F /* JPOperation.m */; };
+		F5E487732657900400135F0F /* JPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E487722657900400135F0F /* JPProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13CC4373E7189877378024A6 /* Pods-JPSubClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPSubClasses.debug.xcconfig"; path = "Target Support Files/Pods-JPSubClasses/Pods-JPSubClasses.debug.xcconfig"; sourceTree = "<group>"; };
+		5551987781C1659C3E727D42 /* libPods-JPSubClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPSubClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E22BEB490E1ABD367C3838 /* Pods-JPSubClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPSubClasses.release.xcconfig"; path = "Target Support Files/Pods-JPSubClasses/Pods-JPSubClasses.release.xcconfig"; sourceTree = "<group>"; };
+		F57B0CC525C92BF6006C75E5 /* JPSubClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPSubClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57B0CC825C92BF6006C75E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F57B0CC925C92BF6006C75E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F57B0CCB25C92BF6006C75E5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F57B0CCC25C92BF6006C75E5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F57B0CCE25C92BF6006C75E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F57B0CCF25C92BF6006C75E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F57B0CD225C92BF6006C75E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F57B0CD425C92BF8006C75E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57B0CD725C92BF8006C75E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F57B0CD925C92BF8006C75E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57B0CDA25C92BF8006C75E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F57B0CE725C92CDE006C75E5 /* JPTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPTabBarController.h; sourceTree = "<group>"; };
+		F57B0CE825C92CDE006C75E5 /* JPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPTabBarController.m; sourceTree = "<group>"; };
+		F57B0CEB25C92CEA006C75E5 /* JPBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPBasicViewController.h; sourceTree = "<group>"; };
+		F57B0CEC25C92CEA006C75E5 /* JPBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPBasicViewController.m; sourceTree = "<group>"; };
+		F57B0CEF25C92D0C006C75E5 /* JPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPNavigationController.h; sourceTree = "<group>"; };
+		F57B0CF025C92D0C006C75E5 /* JPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPNavigationController.m; sourceTree = "<group>"; };
+		F57B0CF325C92D1D006C75E5 /* JPWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPWebViewController.h; sourceTree = "<group>"; };
+		F57B0CF425C92D1D006C75E5 /* JPWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPWebViewController.m; sourceTree = "<group>"; };
+		F57B0CFE25C93FFD006C75E5 /* JPNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPNavigationBar.h; sourceTree = "<group>"; };
+		F57B0CFF25C93FFD006C75E5 /* JPNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPNavigationBar.m; sourceTree = "<group>"; };
+		F5E482D52652679900135F0F /* JPThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPThread.h; sourceTree = "<group>"; };
+		F5E482D62652679900135F0F /* JPThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPThread.m; sourceTree = "<group>"; };
+		F5E482D826526E9D00135F0F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F5E482D926526E9D00135F0F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F5E482DB2653B9B300135F0F /* JPOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPOperationQueue.h; sourceTree = "<group>"; };
+		F5E482DC2653B9B300135F0F /* JPOperationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPOperationQueue.m; sourceTree = "<group>"; };
+		F5E487152654EC6900135F0F /* JPOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPOperation.h; sourceTree = "<group>"; };
+		F5E487162654EC6900135F0F /* JPOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPOperation.m; sourceTree = "<group>"; };
+		F5E487712657900400135F0F /* JPProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPProxy.h; sourceTree = "<group>"; };
+		F5E487722657900400135F0F /* JPProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57B0CC225C92BF6006C75E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1A4887AA91BCF4690F9E06 /* libPods-JPSubClasses.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A858C5C0B5EBE91CCF7588CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13CC4373E7189877378024A6 /* Pods-JPSubClasses.debug.xcconfig */,
+				F0E22BEB490E1ABD367C3838 /* Pods-JPSubClasses.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7A2AE8F74A24F7454A13554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5551987781C1659C3E727D42 /* libPods-JPSubClasses.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F57B0CBC25C92BF6006C75E5 = {
+			isa = PBXGroup;
+			children = (
+				F57B0CC725C92BF6006C75E5 /* JPSubClasses */,
+				F57B0CC625C92BF6006C75E5 /* Products */,
+				A858C5C0B5EBE91CCF7588CF /* Pods */,
+				D7A2AE8F74A24F7454A13554 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F57B0CC625C92BF6006C75E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57B0CC525C92BF6006C75E5 /* JPSubClasses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57B0CC725C92BF6006C75E5 /* JPSubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F57B0CE225C92C18006C75E5 /* JPClasses-OC */,
+				F57B0CC825C92BF6006C75E5 /* AppDelegate.h */,
+				F57B0CC925C92BF6006C75E5 /* AppDelegate.m */,
+				F57B0CCB25C92BF6006C75E5 /* SceneDelegate.h */,
+				F57B0CCC25C92BF6006C75E5 /* SceneDelegate.m */,
+				F57B0CCE25C92BF6006C75E5 /* ViewController.h */,
+				F57B0CCF25C92BF6006C75E5 /* ViewController.m */,
+				F5E482D826526E9D00135F0F /* TestViewController.h */,
+				F5E482D926526E9D00135F0F /* TestViewController.m */,
+				F5E487712657900400135F0F /* JPProxy.h */,
+				F5E487722657900400135F0F /* JPProxy.m */,
+				F57B0CD125C92BF6006C75E5 /* Main.storyboard */,
+				F57B0CD425C92BF8006C75E5 /* Assets.xcassets */,
+				F57B0CD625C92BF8006C75E5 /* LaunchScreen.storyboard */,
+				F57B0CD925C92BF8006C75E5 /* Info.plist */,
+				F57B0CDA25C92BF8006C75E5 /* main.m */,
+			);
+			path = JPSubClasses;
+			sourceTree = "<group>";
+		};
+		F57B0CE225C92C18006C75E5 /* JPClasses-OC */ = {
+			isa = PBXGroup;
+			children = (
+				F57B0CF725C92D50006C75E5 /* UITabBar */,
+				F57B0CE625C92CBE006C75E5 /* UINavigationBar */,
+				F57B0CE525C92CB6006C75E5 /* UICollectionView */,
+				F57B0CE425C92CAF006C75E5 /* UITableView */,
+				F57B0CE325C92C97006C75E5 /* Controller */,
+				F5E482D52652679900135F0F /* JPThread.h */,
+				F5E482D62652679900135F0F /* JPThread.m */,
+				F5E482DB2653B9B300135F0F /* JPOperationQueue.h */,
+				F5E482DC2653B9B300135F0F /* JPOperationQueue.m */,
+				F5E487152654EC6900135F0F /* JPOperation.h */,
+				F5E487162654EC6900135F0F /* JPOperation.m */,
+			);
+			path = "JPClasses-OC";
+			sourceTree = SOURCE_ROOT;
+		};
+		F57B0CE325C92C97006C75E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F57B0CE725C92CDE006C75E5 /* JPTabBarController.h */,
+				F57B0CE825C92CDE006C75E5 /* JPTabBarController.m */,
+				F57B0CEB25C92CEA006C75E5 /* JPBasicViewController.h */,
+				F57B0CEC25C92CEA006C75E5 /* JPBasicViewController.m */,
+				F57B0CEF25C92D0C006C75E5 /* JPNavigationController.h */,
+				F57B0CF025C92D0C006C75E5 /* JPNavigationController.m */,
+				F57B0CF325C92D1D006C75E5 /* JPWebViewController.h */,
+				F57B0CF425C92D1D006C75E5 /* JPWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F57B0CE425C92CAF006C75E5 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		F57B0CE525C92CB6006C75E5 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		F57B0CE625C92CBE006C75E5 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F57B0CFE25C93FFD006C75E5 /* JPNavigationBar.h */,
+				F57B0CFF25C93FFD006C75E5 /* JPNavigationBar.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		F57B0CF725C92D50006C75E5 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57B0CC425C92BF6006C75E5 /* JPSubClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57B0CDE25C92BF8006C75E5 /* Build configuration list for PBXNativeTarget "JPSubClasses" */;
+			buildPhases = (
+				C5EB3DE703A6CE6ECC8BA788 /* [CP] Check Pods Manifest.lock */,
+				F57B0CC125C92BF6006C75E5 /* Sources */,
+				F57B0CC225C92BF6006C75E5 /* Frameworks */,
+				F57B0CC325C92BF6006C75E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSubClasses;
+			productName = JPSubClasses;
+			productReference = F57B0CC525C92BF6006C75E5 /* JPSubClasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57B0CBD25C92BF6006C75E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F57B0CC425C92BF6006C75E5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = F57B0CC025C92BF6006C75E5 /* Build configuration list for PBXProject "JPSubClasses" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F57B0CBC25C92BF6006C75E5;
+			productRefGroup = F57B0CC625C92BF6006C75E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57B0CC425C92BF6006C75E5 /* JPSubClasses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57B0CC325C92BF6006C75E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B0CD825C92BF8006C75E5 /* LaunchScreen.storyboard in Resources */,
+				F57B0CD525C92BF8006C75E5 /* Assets.xcassets in Resources */,
+				F57B0CD325C92BF6006C75E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5EB3DE703A6CE6ECC8BA788 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JPSubClasses-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57B0CC125C92BF6006C75E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B0CD025C92BF6006C75E5 /* ViewController.m in Sources */,
+				F5E482DD2653B9B300135F0F /* JPOperationQueue.m in Sources */,
+				F57B0CED25C92CEA006C75E5 /* JPBasicViewController.m in Sources */,
+				F57B0CCA25C92BF6006C75E5 /* AppDelegate.m in Sources */,
+				F57B0CDB25C92BF8006C75E5 /* main.m in Sources */,
+				F57B0CE925C92CDE006C75E5 /* JPTabBarController.m in Sources */,
+				F5E487732657900400135F0F /* JPProxy.m in Sources */,
+				F5E487172654EC6900135F0F /* JPOperation.m in Sources */,
+				F5E482D72652679900135F0F /* JPThread.m in Sources */,
+				F57B0CCD25C92BF6006C75E5 /* SceneDelegate.m in Sources */,
+				F5E482DA26526E9D00135F0F /* TestViewController.m in Sources */,
+				F57B0CF125C92D0C006C75E5 /* JPNavigationController.m in Sources */,
+				F57B0D0025C93FFD006C75E5 /* JPNavigationBar.m in Sources */,
+				F57B0CF525C92D1D006C75E5 /* JPWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F57B0CD125C92BF6006C75E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57B0CD225C92BF6006C75E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F57B0CD625C92BF8006C75E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57B0CD725C92BF8006C75E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F57B0CDC25C92BF8006C75E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F57B0CDD25C92BF8006C75E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57B0CDF25C92BF8006C75E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CC4373E7189877378024A6 /* Pods-JPSubClasses.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JPSubClasses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djp.demo.JPSubClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F57B0CE025C92BF8006C75E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E22BEB490E1ABD367C3838 /* Pods-JPSubClasses.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JPSubClasses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djp.demo.JPSubClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57B0CC025C92BF6006C75E5 /* Build configuration list for PBXProject "JPSubClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57B0CDC25C92BF8006C75E5 /* Debug */,
+				F57B0CDD25C92BF8006C75E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57B0CDE25C92BF8006C75E5 /* Build configuration list for PBXNativeTarget "JPSubClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57B0CDF25C92BF8006C75E5 /* Debug */,
+				F57B0CE025C92BF8006C75E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57B0CBD25C92BF6006C75E5 /* Project object */;
+}
